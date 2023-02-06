@@ -105,4 +105,3 @@ def start():
     except KeyboardInterrupt:
         with open("activities.json", "w") as json_file:
             json.dump(activeList.serialize(), json_file, indent=4, sort_keys=True)
-start()
