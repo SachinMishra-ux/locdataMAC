@@ -1,7 +1,6 @@
-ipywidgets==8.0.2
 ensure==1.0.2
-types-python-dateutil
-pyobjc
+python-dateutil==2.8.2
+pyobjc==9.0.1
 
 # dev requirements -
 pytest==7.1.3
