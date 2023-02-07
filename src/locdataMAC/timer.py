@@ -2,6 +2,8 @@ from __future__ import print_function
 import time
 import json
 import datetime
+from AppKit import NSWorkspace
+from Foundation import NSAppleScript
 import sys
 from locdataMAC.activity import AcitivyList, TimeEntry, Activity
 from locdataMAC.cutom_exception import InvalidOSException
@@ -10,9 +12,6 @@ activeList = AcitivyList([])
 try:
     if sys.platform in ["Windows", "win32", "cygwin"]:
         raise InvalidOSException
-    elif sys.platform in ["Mac", "darwin", "os2", "os2emx"]:
-        from AppKit import NSWorkspace
-        from Foundation import NSAppleScript
     elif sys.platform in ["linux", "linux2"]:
         raise InvalidOSException
 except InvalidOSException:
