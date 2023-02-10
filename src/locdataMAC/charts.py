@@ -6,8 +6,11 @@ import plotly.express as px
 
 
 def hour_convvertor(x):
-    json_data=x[0]
-    hour=round(json_data['hours']+(json_data['minutes']/60)+(json_data['seconds']/(60*60)),5)
+    json_data=x
+    hour=0
+    for i in json_data:
+        total=round(i['hours']+(i['minutes']/60)+(i['seconds']/(60*60)),5)
+        hour=hour+total
     return hour
 
 @ensure_annotations
