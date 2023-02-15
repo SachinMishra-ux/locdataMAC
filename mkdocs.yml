@@ -3,6 +3,7 @@ site_name: locdataMAC
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - APIreference : APIreference.md
 
 site_author: Sachin Mishra
 site_description: >-
