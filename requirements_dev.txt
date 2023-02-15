@@ -5,6 +5,7 @@ types-python-dateutil
 pandas
 plotly
 pathlib
+mkdocs-material==9.0.11
 
 # dev requirements -
 pytest==7.1.3
