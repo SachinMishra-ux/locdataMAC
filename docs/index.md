@@ -18,4 +18,4 @@ This package is meant to track your time on each & every software as well as on 
 ### Quickstart
 Check the short video for quickstart - 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PIzS0OB0qNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OtDq5WLZ0DA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
