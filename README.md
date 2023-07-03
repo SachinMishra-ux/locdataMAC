@@ -1,7 +1,7 @@
 # locdataMAC Python Package.
 # locdataMAC 
-[![PyPI - latest](https://img.shields.io/pypi/v/iconconsole?label=latest&logo=pypi)](https://pypi.org/project/locdataMAC/)
-[![PyPI - Python](https://img.shields.io/pypi/pyversions/iconconsole?logo=pypi)](https://pypi.org/project/locdataMAC/)
+[![PyPI - latest](https://img.shields.io/pypi/v/locdataMAC)](https://pypi.org/project/locdataMAC/)
+[![PyPI - Python](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.org/project/locdataMAC/)
 
 This package is meant to track your time on each & every software as well as on website & provides the analytics on your time spent.
 
