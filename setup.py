@@ -4,7 +4,7 @@ import io
 with io.open('README.md', encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.8"
+__version__ = "0.0.9"
 
 REPO_NAME = "locdataMAC"
 AUTHOR_USER_NAME = "SachinMishra-ux"
